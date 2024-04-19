@@ -1,7 +1,8 @@
 on: push
-
+name: Hello, world!
 jobs:
   job1:
+    name: 运行在ubuntu-latest系统
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hello, world!"
